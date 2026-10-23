@@ -1,0 +1,12 @@
+# OS & Editor Artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*~
+
+# Sensitive runtime leases & keys
+*.pid
+/var/
+*.key
+!id_ed25519.pub
